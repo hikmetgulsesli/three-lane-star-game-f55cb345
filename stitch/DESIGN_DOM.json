@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-11-17T03:43:46.311Z",
+  "screenCount": 1,
+  "screens": {
+    "3859edf29abe48e9a92dfe19560bc93b": {
+      "screenId": "3859edf29abe48e9a92dfe19560bc93b",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "relative",
+          "classes": [
+            "relative",
+            "z-10",
+            "w-full",
+            "border-b",
+            "border-slate-800/80",
+            "bg-slate-900/70",
+            "backdrop-blur-md",
+            "px-6",
+            "py-4"
+          ],
+          "childCount": 6
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "relative",
+            "z-0",
+            "flex-1",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "p-6",
+            "w-full",
+            "max-w-5xl"
+          ],
+          "childCount": 13
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start round",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-indigo-600",
+            "hover:bg-indigo-500",
+            "text-white",
+            "font-medium",
+            "text-xs",
+            "shadow",
+            "transition-colors",
+            "flex",
+            "items-center",
+            "gap-1.5"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect the star",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-amber-500",
+            "hover:bg-amber-400",
+            "text-slate-950",
+            "font-semibold",
+            "text-xs",
+            "shadow",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to left lane",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "border",
+            "border-slate-700",
+            "text-slate-200",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to center lane",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "border",
+            "border-slate-700",
+            "text-slate-200",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to right lane",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "border",
+            "border-slate-700",
+            "text-slate-200",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart round",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "border",
+            "border-slate-700",
+            "text-slate-200",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Resume round",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-emerald-700",
+            "hover:bg-emerald-600",
+            "border",
+            "border-emerald-600",
+            "text-white",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings",
+          "classes": [
+            "px-3",
+            "py-1.5",
+            "rounded-lg",
+            "bg-indigo-700",
+            "hover:bg-indigo-600",
+            "text-white",
+            "font-medium",
+            "text-xs",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 3,
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start round",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect the star",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to left lane",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to center lane",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move to right lane",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart round",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Resume round",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [],
+      "title": "Play page - Three Lane Star Collector"
+    }
+  }
+}

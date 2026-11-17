@@ -1,0 +1,127 @@
+[
+  {
+    "screenId": "3859edf29abe48e9a92dfe19560bc93b",
+    "screenTitle": "Play page - Three Lane Star Collector",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Start round",
+        "line": 53
+      },
+      {
+        "type": "button",
+        "label": "Collect the star",
+        "line": 63
+      },
+      {
+        "type": "button",
+        "label": "Move to left lane",
+        "line": 73
+      },
+      {
+        "type": "button",
+        "label": "Move to center lane",
+        "line": 83
+      },
+      {
+        "type": "button",
+        "label": "Move to right lane",
+        "line": 93
+      },
+      {
+        "type": "button",
+        "label": "Restart round",
+        "line": 103
+      },
+      {
+        "type": "button",
+        "label": "Resume round",
+        "line": 113
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 123
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 133
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 143
+      },
+      {
+        "type": "button",
+        "label": "Resume round",
+        "line": 222
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start round",
+        "line": 53
+      },
+      {
+        "type": "button",
+        "label": "Collect the star",
+        "line": 63
+      },
+      {
+        "type": "button",
+        "label": "Move to left lane",
+        "line": 73
+      },
+      {
+        "type": "button",
+        "label": "Move to center lane",
+        "line": 83
+      },
+      {
+        "type": "button",
+        "label": "Move to right lane",
+        "line": 93
+      },
+      {
+        "type": "button",
+        "label": "Restart round",
+        "line": 103
+      },
+      {
+        "type": "button",
+        "label": "Resume round",
+        "line": 113
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 123
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 133
+      },
+      {
+        "type": "button",
+        "label": "Open settings",
+        "line": 143
+      },
+      {
+        "type": "button",
+        "label": "Resume round",
+        "line": 222
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 11,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
